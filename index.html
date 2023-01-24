@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes Monstrosol</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+
+  
+
+    <div class="box">
+
+        <img class="logo_img" src="images/logo.png" alt="">
+
+        <span class="page_title">Cadastro de Clientes</span>
+        <div class="dialog">
+            <form action="">
+
+                <div class="input_group">                    
+                    <div class="input_box">
+                        <label for="name">Nome do Cliente</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+
+                    <div class="input_box">
+                        <label for="document">CPF/CNPJ</label>
+                        <input type="number" name="document" id="document">
+                    </div>
+                </div>
+
+                <div class="input_group3">
+                    <div class="input_box">
+                        <label for="postal_code">CEP</label>
+                        <input type="text" name="postal_code" id="postalCode">
+                    </div>
+    
+                    <div class="input_box">
+                        <label for="adress">Endereço</label>
+                        <input type="text" name="adress" id="adress">
+                    </div>
+
+                    <div class="input_box">
+                        <label for="house_number">Número</label>
+                        <input type="number" name="house_number" id="houseNumber">
+                    </div>
+                </div>
+
+                <div class="input_group">                    
+                    <div class="input_box">
+                        <label for="complement">Complemento</label>
+                        <input type="text" name="complement" id="complement">
+                    </div>
+
+                    <div class="input_box">
+                        <label for="city">Cidade</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                </div>
+
+                <div class="input_box">
+                    <label for="tel_number">Telefone</label>
+                    <input type="text" name="tel_number" id="tel">
+                </div>
+
+                <div class="input_box">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" id="email">
+                </div>
+
+                <div class="input_box">
+                    <label for="last_price">Último Valor</label>
+                    <input type="number" name="last_price" id="lastPrice">
+                </div>
+
+            </form>
+
+            <button class="submit_button" id="submitBtn">Cadastrar</button>
+        </div>
+    </div>
+
+    <div class="list_box" id="list_box">
+
+        <!-- <div class="item_box">
+            <div class="item_left">
+                <div class="item_title">
+                    <span>Mayara Zurk</span>
+                    <span>000.000.000-00</span>
+                </div>
+                <div class="item_details">
+                    <span>Rua Visconde de Taunay, <span>80</span> <span>|</span> <span>Piracicaba</span> <span> - </span> <span>São Paulo</span></span><strong><span> 13424-368</span></strong><br>
+                    <span>(19) 99923-8739</span> <span> | </span>  
+                    <span>email@email.com.br</span><br>
+                    <span>Último Valor </span><strong><span>R$</span><span class="lastPrice">6,50</span></strong>
+                </div>
+            </div>
+            <div class="item_right">
+                <div class="item_remove_btn" id="item_remove_btn">
+                    <span class="material-symbols-outlined">
+                        delete
+                    </span>
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
